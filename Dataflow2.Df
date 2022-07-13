@@ -3,6 +3,7 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
+  <Name>C:\Users\Ritika.Dodani\Documents\GitHub\centerprise-clone-test-5\Dataflow2.Df</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
@@ -189,12 +190,237 @@
         </DynamicLayoutOptions>
       </DataflowItemDataSourceDelimited>
     </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>f3a2bd1d-0b16-4f2a-8275-134e3f8cce8c</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>f3a2bd1d-0b16-4f2a-8275-134e3f8cce8c</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DelimitedDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>584</X>
+            <Y>232</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>DelimitedDest</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationDelimited>
+        <Name>DelimitedDest</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DelimitedLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>DelimitedDest</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Delimited</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="10001291" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CustomerID" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CustomerID">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1b66b743-24d2-4b7e-9eb4-4aaed32e3b8b</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </DelimitedLayoutField>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="Active" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Active">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>0a8486bc-8c85-4a66-87f6-f035ecc8237f</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </DelimitedLayoutField>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ContactName" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ContactName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>47b6484a-5403-403b-a00e-b7501049c39b</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </DelimitedLayoutField>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="30" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ContactTitle" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ContactTitle">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1461c00f-73e9-4004-bdf4-191996988dd1</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </DelimitedLayoutField>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="36" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="CompanyName" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CompanyName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2c4f06bb-9b46-4154-8177-eed18a96c8cf</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </DelimitedLayoutField>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="985000" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="TotalSalesToDate" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TotalSalesToDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>213e2d51-520b-4e14-9ce2-936839e79caf</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </DelimitedLayoutField>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="DateUpdated" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="DateUpdated">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>3b07c3bb-37d3-40a0-a08e-cc3a97f495c1</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </DelimitedLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <IsWebServerLogFile>false</IsWebServerLogFile>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" MakeAllFieldsAsStringInBuildLayout="false" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" AllowRecordDelimiterInsideField="false" FieldDelimiterString="&lt;Comma&gt;" RecordDelimiter="&#xD;&#xA;" QuoteChar="34">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="C:\Users\Ritika.Dodani\Documents\GitHub\centerprise-clone-test-5\output.csv" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" AlwaysWriteQuoteChar="false" FieldDelimiter="," FieldEscapeType="SurroundWithQualifier" QuoteChar="34" QuoteEscape="0" RecordDelimiter="&#xD;&#xA;" NoDelimeter="false" FieldDelimiterString="&lt;Comma&gt;">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>C:\Users\Ritika.Dodani\Documents\GitHub\centerprise-clone-test-5\output.csv</Path>
+              <UncPath>C:\Users\Ritika.Dodani\Documents\GitHub\centerprise-clone-test-5\output.csv</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+          <HierarchicalProperties>
+            <IsCaseSensitive>false</IsCaseSensitive>
+          </HierarchicalProperties>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <WriteToUniqueFiles>false</WriteToUniqueFiles>
+        <FilePath>C:\Users\Ritika.Dodani\Documents\GitHub\centerprise-clone-test-5\output.csv</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <SourceFieldPaths />
+        <UsesSourceFieldPaths>false</UsesSourceFieldPaths>
+        <ExportMode>false</ExportMode>
+      </DataflowItemDataDestinationDelimited>
+    </FlowDocumentItemAction>
   </Actions>
   <Links />
-  <Maps />
+  <Maps>
+    <FlowDocumentItemMap>
+      <UniqueId>3a303aaa-2bed-45fe-8d23-a2cc4c3be471</UniqueId>
+      <Start>DelimitedSource.CustomerID</Start>
+      <End>DelimitedDest.CustomerID</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>24653fb5-b26d-4575-9467-1572fe96a52d</UniqueId>
+      <Start>DelimitedSource.Active</Start>
+      <End>DelimitedDest.Active</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>e178a6e2-df14-48de-9641-e1f93032b689</UniqueId>
+      <Start>DelimitedSource.ContactName</Start>
+      <End>DelimitedDest.ContactName</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>23135ac7-3594-406b-9f0c-59ffade25f64</UniqueId>
+      <Start>DelimitedSource.ContactTitle</Start>
+      <End>DelimitedDest.ContactTitle</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>f630085e-bee5-41ec-8f42-2d602ec1c920</UniqueId>
+      <Start>DelimitedSource.CompanyName</Start>
+      <End>DelimitedDest.CompanyName</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>28c34162-ed81-42f7-8c56-fa605819f171</UniqueId>
+      <Start>DelimitedSource.TotalSalesToDate</Start>
+      <End>DelimitedDest.TotalSalesToDate</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>329998d2-ec61-4055-abb0-8a3caeab0892</UniqueId>
+      <Start>DelimitedSource.DateUpdated</Start>
+      <End>DelimitedDest.DateUpdated</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+  </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>b1327148-7625-47ba-8b5a-4e0b5f4e0ffe</UniqueId>
+    <UniqueId>a4092a55-51ec-4899-bfcb-359501dbe957</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
@@ -202,13 +428,13 @@
         <Y>177</Y>
       </Location>
       <Size>
-        <Width>212</Width>
-        <Height>251</Height>
+        <Width>510</Width>
+        <Height>306</Height>
       </Size>
       <X>286</X>
       <Y>177</Y>
-      <Width>212</Width>
-      <Height>251</Height>
+      <Width>510</Width>
+      <Height>306</Height>
     </DocumentBounds>
     <DocumentPosition>
       <X>0</X>
